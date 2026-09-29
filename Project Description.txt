@@ -1,0 +1,61 @@
+->Project Description
+
+The name of my project is Jeevan Raksha Pharmacy, which is a Pharmacy Management System using MySQL.The project makes use of SQL ideas such as DDL, DML, joins, aggregate functions, filtering, grouping, and subqueries.
+
+The primary purpose of this project is to minimize manual effort, ensure accuracy in the data, and provide quick access to information related to the pharmacy.
+
+-> Objectives
+* Manage customers, medicines, suppliers, and bills.
+* Maintain medicine stock and availability.
+* Simplify billing and payment management.
+* Retrieve pharmacy information quickly using SQL queries.
+* Reduce manual errors and data duplication.
+
+->Technologies Used
+
+* MySQL – Database management
+* SQL – Data manipulation and querying
+* MySQL Workbench– Database design and execution
+* Relational Database Concepts – Tables, keys, and relationships
+
+->Database Tables
+
+* Customer – Stores customer details.
+* Medicine – Stores medicine information and stock.
+* Supplier – Stores supplier details.
+* Orders – Stores customer order details.
+* Bill – Stores billing and payment information.
+
+->Table Relationships
+
+* Customer → Orders – One customer can place multiple orders.
+* Orders → Bill – Each order is associated with a bill.
+* Supplier → Medicine – A supplier can provide multiple medicines.
+* Medicine → Orders – Medicines can be included in multiple orders.
+
+->SQL Concepts Covered
+
+* DDL & DML Commands
+* SELECT, WHERE, ORDER BY
+* JOINs
+* GROUP BY & HAVING
+* Aggregate Functions – SUM(),COUNT(),AVG()
+* Subqueries
+* Primary & Foreign Keys
+* Filtering and Sorting Data
+
+->How to Run the Project
+
+1. Open MySQL Workbench.
+2. Create a new database.
+3. Import or open the Jeevan Raksha Pharmacy SQL file.
+4. Execute the SQL script to create tables and insert data.
+5. Run the required SQL queries to view and analyze the pharmacy data.
+
+->Project Files
+
+* Database SQL File – Contains database, tables, and data.
+* SQL Queries File – Contains project-related queries.
+* Project Documentation – Contains project details and explanations.
+* PPT Presentation – Used for project presentation.
+
